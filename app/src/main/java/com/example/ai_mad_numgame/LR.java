@@ -32,7 +32,7 @@ public class LR {
         int sigmaXY=getSigma(productPredictorResposne);
         Log.i("SigmaXr", sigmaX+"");
         Log.i("SigmaY", sigmaY+"");
-        Log.i("SigmaXSquarer", sigmaXsquare+"");
+        Log.i("SigmaXSquarer", sigmaXsquare+"");//nice
         Log.i("SigmaXY", sigmaXY+"");
         double numerator=sample_size*sigmaXY-(sigmaX*sigmaY);
         Log.i("Numerator",numerator+"");
