@@ -13,7 +13,7 @@ public class LR {
         int response[]=new int[sample_size];
         int squarePredictor[]=new int[sample_size];
         int productPredictorResposne[]=new int[sample_size];
-
+//view
 
         for(int i=0;i< dataframe.length;i++) {
             predictor[i] = dataframe[i][0];
